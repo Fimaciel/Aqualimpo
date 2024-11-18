@@ -1,0 +1,20 @@
+[90m= [39m[34;4mIlluminate\Routing\Route[39;24m {#6276
+    +[1muri[22m: "[32mprodutos[39m",
+    +[1mmethods[22m: [
+      "[32mPOST[39m",
+    ],
+    +[1maction[22m: [
+      "[34muses[39m" => "[32mProdutosController@store[39m",
+      "[34mcontroller[39m" => "[32mProdutosController@store[39m",
+      "[34mas[39m" => "[32mprodutos.salvar[39m",
+    ],
+    +[1misFallback[22m: [36mfalse[39m,
+    +[1mcontroller[22m: [36mnull[39m,
+    +[1mdefaults[22m: [],
+    +[1mwheres[22m: [],
+    +[1mparameters[22m: [36mnull[39m,
+    +[1mparameterNames[22m: [36mnull[39m,
+    +[1mcomputedMiddleware[22m: [36mnull[39m,
+    +[1mcompiled[22m: [36mnull[39m,
+  }
+

@@ -1,0 +1,71 @@
+:root{
+    --cor-amarela:#FFB703;
+    --cor-laranja:#FB8500;
+    --cor-azulescuro:#023047;
+    --cor-azulclaro:#219EBC;
+    --cor-azulbebe:#8ECAE6;
+}
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+main{
+  flex-grow: 1;
+}
+footer {
+  flex-shrink: 0;
+  background: black;
+  color: white;
+}
+
+.bg-orange {
+    background: var(--cor-laranja);
+}
+.bg-amarelo{
+  background: var(--cor-amarela);
+}
+icone-azul{
+  color: var(--cor-azulbebe);
+}
+.titulo{
+    color: var(--cor-azulescuro);
+    font-weight: 800;
+}
+.menu-nav-item{
+  color: var(--cor-azulescuro);
+}
+.menu-nav-item:hover{
+  color: var(--cor-azulbebe);
+}
+.linewidth{
+  width: 74.3%;
+}
+.line{
+    height: 1px;
+    background-color: var(--cor-azulescuro);
+}
+.no-edit{
+  height: 100px;
+  resize: none;
+}
+.pos-r{
+  margin-left: 85%;
+}
+
+.btn-custom {
+  background-color: var(--cor-azulescuro);
+  color: white;
+  border-color: var(--cor-azulescuro);
+}
+
+.btn-custom:hover {
+  background-color: var(--cor-azulescuro);
+  color: var(--cor-azulbebe);
+  border-color: var(--cor-azulescuro);
+}
+
+
